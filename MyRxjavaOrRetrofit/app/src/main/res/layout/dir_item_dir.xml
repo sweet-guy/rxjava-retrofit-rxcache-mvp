@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dir_item_dir_root_height">
+
+    <ImageView
+        android:id="@+id/dir_item_dir_left_no"
+        android:layout_marginLeft="@dimen/dir_item_dir_left_no_margin_left"
+        android:layout_width="@dimen/dir_item_dir_left_no_width"
+        android:layout_height="@dimen/dir_item_dir_left_no_width"
+        android:src="@mipmap/zjsq"
+        android:layout_centerVertical="true"/>
+
+    <CheckedTextView
+        android:id="@+id/dir_item_dir_center_name"
+        android:layout_toRightOf="@+id/dir_item_dir_left_no"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/dir_item_dir_center_name_bg"
+        android:layout_marginRight="@dimen/dir_item_dir_center_name_maginright"
+        android:checkMark="@drawable/checkbox_style"
+        android:layout_marginLeft="@dimen/dir_item_dir_center_name_margin_left"
+        android:textSize="@dimen/dir_item_dir_center_name_ts"
+        android:textColor="@color/dir_item_dir_center_name_selector_text_color"
+        android:gravity="center_vertical"
+        android:text="文件夹"/>
+</RelativeLayout>

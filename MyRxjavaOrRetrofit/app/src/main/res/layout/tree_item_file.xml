@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+
+    <TextView
+        android:id="@+id/ddddd"
+        android:layout_width="@dimen/tree_item_file_tab_width"
+        android:layout_height="@dimen/tree_item_file_tab_width"
+        android:layout_marginLeft="@dimen/ddddd_margin_left"
+        android:layout_centerVertical="true"
+        android:background="@drawable/tree_item_file_left_bg"/>
+
+    <CheckedTextView
+        android:id="@+id/tree_item_file_name"
+        android:layout_toRightOf="@+id/ddddd"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="@dimen/tree_item_file_name_main_ri"
+        android:checkMark="@drawable/checkbox_style"
+        android:layout_marginLeft="@dimen/tree_item_file_namemargin_left"
+        android:textSize="@dimen/tree_item_file_name_ts"
+        android:background="@drawable/dir_item_dir_center_name_bg"
+        android:textColor="@color/dir_item_dir_center_name_selector_text_color"
+        android:gravity="center_vertical"
+        android:text="最后层级"/>
+</RelativeLayout>

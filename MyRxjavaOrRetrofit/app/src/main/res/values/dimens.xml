@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dp_40">40dp</dimen>
+    <dimen name="dp_4">4dp</dimen>
+    <dimen name="sp_14">14sp</dimen>
+    <dimen name="tree_item_file_tab_width">10dp</dimen>
+    <dimen name="ddddd_margin_left">10dp</dimen>
+    <dimen name="tree_item_file_name_main_ri">20dp</dimen>
+    <dimen name="tree_item_file_namemargin_left">10dp</dimen>
+    <dimen name="tree_item_file_name_ts">14sp</dimen>
+    <dimen name="dir_item_dir_left_no_margin_left">10dp</dimen>
+    <dimen name="dir_item_dir_root_height">50dp</dimen>
+    <dimen name="dir_item_dir_left_no_width">15dp</dimen>
+    <dimen name="dir_item_dir_center_name_maginright">20dp</dimen>
+    <dimen name="dir_item_dir_center_name_margin_left">10dp</dimen>
+    <dimen name="dir_item_dir_center_name_ts">14sp</dimen>
+    <dimen name="address_selector_height_rel">45dp</dimen>
+    <dimen name="tttttt_ts">16sp</dimen>
+    <dimen name="ccccc_width">15dp</dimen>
+    <dimen name="ccccc_margin_ri">15dp</dimen>
+</resources>

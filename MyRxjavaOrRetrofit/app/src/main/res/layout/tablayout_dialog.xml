@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/showroledialog_item_bg">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/title"
+        >
+        <TextView
+            android:id="@+id/title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:text="请选择" />
+
+        <ImageView
+            android:id="@+id/close_dialog"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="30dp"
+            app:srcCompat="@mipmap/chazi" />
+    </RelativeLayout>
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tab"
+        android:layout_below="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        app:tabMaxWidth="0dp"
+        app:tabMode="fixed"
+        app:tabGravity="fill"
+        app:tabSelectedTextColor="@color/font_blue"
+        app:tabIndicatorColor="@color/font_blue">
+    </android.support.design.widget.TabLayout>
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/tab"
+        android:background="@color/c1"></View>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/tab_rv"
+        android:layout_below="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+    </android.support.v7.widget.RecyclerView>
+</RelativeLayout>
