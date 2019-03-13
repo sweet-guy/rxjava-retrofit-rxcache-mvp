@@ -1,5 +1,5 @@
-# rxjava-retrofit-rxcache-mvp
-初次搭建rxjava+retrofit+rxcache+mvp数据缓存框架
+# rxjava-retrofit-rxcache-mvp数据缓存框架
+
 
 使用MagicIndicator实现滑动tablayout效果
 
@@ -12,6 +12,8 @@
 使用SmartRefreshLayout实现刷新加载
 
 使用BufferKnife获取控件
+
+使用RecycleViewAdapter工具
 
 使用Rxjava+Retrofit网络框架
 
